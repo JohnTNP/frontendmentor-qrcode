@@ -3,13 +3,14 @@
 body {
   background: hsl(212, 45%, 89%);
   font-family: "Outfit";
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .card-container {
-  position: relative;
-  top: 50vh;
-  margin: auto;
-  transform: translateY(-50%);
   display: flexbox;
   padding: 1rem;
   border-radius: 1rem;
