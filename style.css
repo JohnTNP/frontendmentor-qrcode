@@ -5,22 +5,24 @@ body {
   font-family: "Outfit";
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
+  row-gap: 2rem;
 }
 
 .card-container {
   display: flexbox;
-  padding: 1rem;
   border-radius: 1rem;
-  width: 15rem;
+  max-width: 15rem;
   background: white;
   justify-content: center;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.137) 0 0 10px;
   transition: 0.3s ease-out;
   user-select: none;
+  padding: 1rem;
 }
 .card-container:hover {
   box-shadow: rgba(0, 0, 0, 0.385) 0 0 10px;
@@ -31,11 +33,8 @@ img {
   transition: 0.2s ease-out;
   border-radius: 0.5rem;
 }
-img:hover {
-  border-radius: 2rem;
-}
 h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
